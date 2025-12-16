@@ -19,15 +19,10 @@ const HeroSection = () => {
            Your AI-powered career companion for resumes, interviews, and professional growth.
           </p>
         </div>
-        <div className="flex justify-center space-x-4">
+        <div className="flex justify-center">
           <Link href="/dashboard">
             <Button size="lg" className="px-8 button-glow-strong neon-glow">
               Get Started
-            </Button>
-          </Link>
-          <Link href="https://www.youtube.com/roadsidecoder">
-            <Button size="lg" variant="outline" className="px-8 button-glow border-primary/30">
-              Watch Demo
             </Button>
           </Link>
         </div>
